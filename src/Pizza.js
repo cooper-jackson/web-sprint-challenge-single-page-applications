@@ -98,19 +98,19 @@ export default function Pizza () {
                     <div id="sauce-choice" className="choice">
                         <span>
                             <input type="radio" id="original-red" value="Original Red" name="sauce" onChange={onChange} />
-                            <label for="original-red">Original Red</label>
+                            <label htmlFor="original-red">Original Red</label>
                         </span>
                         <span>
                             <input type="radio" id="garlic-ranch" value="Garlic Ranch" name="sauce" onChange={onChange} />
-                            <label for="garlic-ranch">Garlic Ranch</label>
+                            <label htmlFor="garlic-ranch">Garlic Ranch</label>
                         </span>
                         <span>
                             <input type="radio" id="bbq-sauce" value="BBQ Sauce" name="sauce" onChange={onChange} />
-                            <label for="bbq-sauce">BBQ Sauce Red</label>
+                            <label htmlFor="bbq-sauce">BBQ Sauce Red</label>
                         </span>
                         <span>
                             <input type="radio" id="spinach-alfredo" value="Spinach Alfredo" name="sauce" onChange={onChange} />
-                            <label for="spinach-alfredo">Spinach Alfredo</label>
+                            <label htmlFor="spinach-alfredo">Spinach Alfredo</label>
                         </span>
                     </div>
                 </section>
@@ -120,71 +120,71 @@ export default function Pizza () {
                     <div id="toppings-choice" className="choice">
                         <span>
                             <input type="checkbox" id="pepperoni" value="Pepperoni" name="pepperoni" onChange={onChange} />
-                            <label for="pepperoni">Pepperoni</label>
+                            <label htmlFor="pepperoni">Pepperoni</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="sausage" value="Sausage" name="sausage" onChange={onChange} />
-                            <label for="sausage">Sausage</label>
+                            <label htmlFor="sausage">Sausage</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="canadian-bacon" value="Canadian Bacon" name="canadianBacon" onChange={onChange} />
-                            <label for="canadian-bacon">Canadian bacon</label>
+                            <label htmlFor="canadian-bacon">Canadian bacon</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="spicy-italian-sausage" value="Spicy Italian Sausage" name="spicyItalianSausage" onChange={onChange} />
-                            <label for="spicy-italian-sausage">Spicy Italian Sausage</label>
+                            <label htmlFor="spicy-italian-sausage">Spicy Italian Sausage</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="grilled-chicken" value="Grilled Chicken" name="grilledChicken" onChange={onChange} />
-                            <label for="grilled-chicken">Grilled Chicken</label>
+                            <label htmlFor="grilled-chicken">Grilled Chicken</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="onions" value="Onions" name="onions" onChange={onChange} />
-                            <label for="onions">Onions</label>
+                            <label htmlFor="onions">Onions</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="green-peppers" value="Green Peppers" name="greenPeppers" onChange={onChange} />
-                            <label for="green-peppers">Green Peppers</label>
+                            <label htmlFor="green-peppers">Green Peppers</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="diced-tomatoes" value="Diced Tomatoes" name="dicedTomatoes" onChange={onChange} />
-                            <label for="diced-tomatoes">Diced Tomatoes</label>
+                            <label htmlFor="diced-tomatoes">Diced Tomatoes</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="black-olives" value="Black Olives" name="blackOlives" onChange={onChange} />
-                            <label for="black-olives">Black Olives</label>
+                            <label htmlFor="black-olives">Black Olives</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="roasted-garlic" value="Roasted Garlic" name="roastedGarlic" onChange={onChange} />
-                            <label for="roasted-garlic">Roasted Garlic</label>
+                            <label htmlFor="roasted-garlic">Roasted Garlic</label>
                         </span>
                         <span>
                             <input type="checkbox" id="artichoke-hearts" value="Artichoke Hearts" name="artichokeHearts" onChange={onChange} />
-                            <label for="artichoke-hearts">Artichoke Hearts</label>
+                            <label htmlFor="artichoke-hearts">Artichoke Hearts</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="three-cheese" value="Three Cheese" name="threeCheese" onChange={onChange} />
-                            <label for="three-cheese">Three Cheese</label>
+                            <label htmlFor="three-cheese">Three Cheese</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="pineapple" value="Pineapple" name="pineapple" onChange={onChange} />
-                            <label for="pineapple">Pineapple</label>
+                            <label htmlFor="pineapple">Pineapple</label>
                         </span>
 
                         <span>
                             <input type="checkbox" id="extra-cheese" value="Extra Cheese" name="extraCheese" onChange={onChange} />
-                            <label for="extra-cheese">Extra Cheese</label>
+                            <label htmlFor="extra-cheese">Extra Cheese</label>
                         </span>
                     </div>
                 </section>
